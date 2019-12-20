@@ -22,7 +22,7 @@ The function returns the value from the pin or an exception.
 
 ### Reading from a pin (function called inside the module)
 ````d 
-readAnalog(int pinNumber);
+float readAnalog(int pinNumber);
 ````
 
 Actually read the value from the given pin. The function takes only one argument:
