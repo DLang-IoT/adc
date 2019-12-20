@@ -14,6 +14,8 @@ File file;
  * Params:
  *   pinNumber = the number of the pin to read from
  * Returns: float value of the voltage on the input pin
+ * Example:
+ *   float result = analogRead(1)
  */
 float analogRead(int pinNumber)
 {
@@ -46,6 +48,8 @@ float analogRead(int pinNumber)
  *   pinNumber = the number of the pin to read from
  * Returns: float value of the voltage on the input pin or exception if the board
  *          is not valid for analog pins
+ * Example:
+ *   float result = read(1);
  */
 float read(int pinNumber)
 {
